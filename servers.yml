@@ -70,7 +70,7 @@ Resources:
     Properties:
       VPCZoneIdentifier:
       - Fn::ImportValue:
-          !Sub "${EnvironmentName}-PUB-NETS"
+          !Sub "${EnvironmentName}-PRIV-NETS"
       LaunchConfigurationName:
         Ref: WebAppLaunchConfig
       MinSize: 4

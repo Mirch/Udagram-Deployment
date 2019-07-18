@@ -57,7 +57,7 @@ Resources:
           cd /var/www/html
           aws s3 cp s3://udagram-storage/udagram.zip .
           unzip -o udagram.zip
-      ImageId: ami-005bdb005fb00e791
+      ImageId: ami-07b4f3c02c7f83d59
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
